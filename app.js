@@ -53,7 +53,7 @@ app.get("/getmovie", async (req, res) => {
 
 });
 
-// Get specific data
+// Specific data
 
 app.get("/specificmovie", async (req, res) => {
     const onemovie = await Movie.findOne({ title: req.body.title });
@@ -70,7 +70,7 @@ app.get("/specificmovie", async (req, res) => {
     });
 });
 
-//  update specific movie
+//  Update Specific movie
 
 app.put("/updatemovie", async (req, res) => {
     const updatemovie = await Movie.findByIdAndUpdate(req.body.id, req.body.newdata);
@@ -88,7 +88,7 @@ app.put("/updatemovie", async (req, res) => {
 
 });
 
-// delet movie
+// Delete movie
 
 app.delete("/deletemovie" , async (req , res)=>{
     const delet = await Movie.findByIdAndDelete(req.body.id);
