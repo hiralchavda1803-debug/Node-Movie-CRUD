@@ -51,15 +51,19 @@ This project allows users to manage movie records using CRUD operations (Create,
 
 ## 🖼️ ScreenShot
 
-![img1]('/ss1.png')
-![img2]('/ss2.png')
-![img3]('/ss3.png')
-![img4]('/ss4.png')
-![img5]('/ss5.png')
-![img6]('/ss6.png')
+![img1](ss1.png)
 
+![img2](ss2.png)
 
-## 🎥Video
+![img3](ss3.png)
+
+![img4](ss4.png)
+
+![img5](ss5.png)
+
+![img6](ss6.png)
+
+## 🎥 Video
 
 
 
